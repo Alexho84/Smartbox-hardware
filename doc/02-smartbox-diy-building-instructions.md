@@ -58,18 +58,6 @@ Once the relay board is fixed to the Humble Pi, the power supply and control lin
 
 <br>
 
-### Temperature sensors
-
-The DS18B20 1-wire temperature sensors can be connected on a 1-wire bus. Up to 10 sensors can easily be handled. It is convenient to use the water proof version whitch is provided with a 3-wire cable which is used for the data line and power supply. This cable should be connected to an RJ11 plug for easy installation of the bus, using 1 to 2 Female RJ11 splitters.  
-
-<br>
-
-### Temperature/Humidity sensors
-
-The DHT22 sensor also uses a 1-wire protocol but doesn't support a master/slave architecture and therefore cannot be connected together with other sensors on the same bus. That means one GPIO pin is needed for each DHT22 sensor. This sensor doesn't support long cables and should be located close to the Smartbox (<1m).  
-
-<br>
-
 ### DIN rail mounting enclosure
 
 When the completely assembled Humble Pi board is mounted on top of the RaspberryPi, it can be screwed onto the bottom plate of the enclosure. Before closing the case, the sensor and counter cables need to be connected to the screw terminals according to the above scheme and passed through the holes of the enclosure lid.  
