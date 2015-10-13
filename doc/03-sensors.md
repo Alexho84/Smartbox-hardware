@@ -29,6 +29,7 @@ The cable should be connected to an RJ11 plug for easy installation of the bus a
 
 The bus itself can be realized using a standard 4-wire flat telephone cable with RJ11 plugs on each end. The cables and sensors are connected with each other with 1-to-2 Female RJ11 splitters.  
 
+![1-wire temperature sensor bus](pictures/sensor-cabling.png "1-wire temperature sensor bus")
 
 <br>
 
